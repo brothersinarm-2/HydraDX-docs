@@ -11,7 +11,7 @@ When nominating, nominators appoint their stake to a validator of their choice. 
 
 :::warning
 
-Nominating is a more accessible form of participation in the staking process, however it also carries a certain degree of risk. If the validator you have nominated misbehaves (e.g. fails to maintain the required uptime), slashing can occur which may lead to a partial involuntary loss of the funds you have staked. We highly recommend that you do your due diligence before nominating a validator.
+Nominating is a more accessible form of participation in the staking process, however it also carries a certain degree of risk. If the validator you have nominated misbehaves (e.g. fails to maintain the required uptime), slashing can occur which may lead to a partial involuntary loss of the funds you have staked.Even though slashing is temporarily unavailable during the Testnet period, the Validator can still be chilled thus inactive and you will not receive the rewards. We highly recommend that you do your due diligence before nominating a validator.
 
 :::
 
@@ -42,7 +42,7 @@ The Staking UI has the following menu tabs:
 
 :::warning
 
-Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node you have nominated may be punished by slashing which can lead to an involuntary loss of your funds. We strongly recommend that you do your due diligence when selecting which validator to nominate.
+Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node you have nominated may be punished by slashing which can lead to an involuntary loss of your funds.Even though slashing is temporarily unavailable during the Testnet period, the Validator can still be chilled thus inactive and you will not receive the rewards. We strongly recommend that you do your due diligence when selecting which validator to nominate.
 
 :::
 
@@ -84,7 +84,7 @@ After bonding HDX, you can now nominate a validator. Before proceeding, you shou
 
 :::note
 
-HydraDX Snakenet has a **limit of 64 nominators per validating node**. When selecting a node to nominate, make sure that the validator has not reached the maximum amount of nominations, otherwise your nomination will be invalid and you will not receive rewards for your stake. The number of nominations for every validator can be found in the *Waiting* menu tab in the Staking UI.
+HydraDX Snakenet has a **limit of 64 active nominators per validating node**. When selecting a node to nominate, make sure that the validator has not reached the maximum amount of nominations or more than amounts of the nominator is currently at position 64, otherwise your nomination will be invalid and you will not receive rewards for your stake. The number of nominations for every validator can be found in the *Waiting* menu tab in the Staking UI.
 
 :::
 
@@ -127,7 +127,7 @@ Once a nomination becomes active, you should find it in the list of *Active nomi
 
 :::note
 
-Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
+Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage or dropped from the list of 64 active nominators by other larger nominators, which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
 
 :::
 
